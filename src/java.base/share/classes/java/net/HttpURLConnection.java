@@ -358,7 +358,7 @@ public abstract class HttpURLConnection extends URLConnection {
 
     /* valid HTTP methods */
     private static final String[] methods = {
-        "GET", "POST", "HEAD", "OPTIONS", "PUT", "DELETE", "TRACE"
+        "GET", "POST", "HEAD", "OPTIONS", "PUT", "PATCH", "DELETE", "TRACE"
     };
 
     /**
